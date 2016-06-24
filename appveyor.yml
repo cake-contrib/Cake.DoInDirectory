@@ -28,4 +28,4 @@ after_test:
 artifacts:
   - path: Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll
     name: Cake.DoInDirectory.dll
-  - path: '**\*.nupkg'
+  - path: 'nuget\*.nupkg'
