@@ -2,7 +2,7 @@
 An extension to Cake to do this
 
 ```cs
-    InDirectory("Some/Sub/Directory", () =>
+    DoInDirectory("Some/Sub/Directory", () =>
         Npm.RunScript("test")
     );
 ```
