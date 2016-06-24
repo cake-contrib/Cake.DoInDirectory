@@ -12,6 +12,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll" target="lib\" />
+    <file src="..\Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll" target="lib/net45" />
   </files>
 </package>
