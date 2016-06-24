@@ -20,7 +20,7 @@ before_build:
   - nuget restore .\Cake.DoInDirectory\Cake.DoInDirectory.sln
 
 build:
-  project: Cake.DoInDirectory.sln
+  project: .\Cake.DoInDirectory\Cake.DoInDirectory.sln
 
 after_test:
   - ps: .\nuget\pack.ps1
