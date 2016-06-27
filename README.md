@@ -2,7 +2,7 @@
 An extension to Cake to do this
 
 ```cs
-    #addin nuget:?package=Cake.DoInDirectory&prerelease
+    #addin nuget:?package=Cake.DoInDirectory
     
     DoInDirectory("Some/Sub/Directory", () =>
         Npm.RunScript("test")
