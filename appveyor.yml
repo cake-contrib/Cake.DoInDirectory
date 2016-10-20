@@ -1,5 +1,5 @@
 # Release Versions
-version: 0.1.0
+version: 0.1.1
 # Pre-Release Versions
 # version: 0.0.2-build{build}
 
@@ -28,4 +28,6 @@ after_test:
 artifacts:
   - path: Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll
     name: Cake.DoInDirectory.dll
+  - path: Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.XML
+    name: Cake.DoInDirectory.XML
   - path: '**\Cake.DoInDirectory*.nupkg'

@@ -13,5 +13,6 @@
   </metadata>
   <files>
     <file src="..\Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll" target="lib/net45" />
+    <file src="..\Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.XML" target="lib/net45" />
   </files>
 </package>
