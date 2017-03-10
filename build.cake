@@ -54,6 +54,9 @@ Task("Pack")
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.XML", Target = "lib/net45" },
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.pdb", Target = "lib/net45" }
         },
+        Dependencies = new [] {
+            new NuSpecDependency { Id = "Cake.Core", Version = "0.18.0" }
+        },
         BasePath        = "./",
         OutputDirectory = "./nuget"
     };
