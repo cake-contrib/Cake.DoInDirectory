@@ -7,7 +7,7 @@ var solution = File("Cake.DoInDirectory/Cake.DoInDirectory.sln");
 
 var version = GitVersion(new GitVersionSettings { UpdateAssemblyInfo = true });
 if (AppVeyor.IsRunningOnAppVeyor) {
-    AppVeyor.UpdateBuildVersion(version.NuGetVersionV2);
+    AppVeyor.UpdateBuildVersion(version.InformationalVersion);
 }
 
 Task("Clean")
