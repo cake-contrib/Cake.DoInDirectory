@@ -1,33 +1,13 @@
-# Release Versions
-version: 0.1.1
-# Pre-Release Versions
-# version: 0.0.2-build{build}
+environment:
+  nuget_api_token:
+    secure: 0z9yOFGpfQzF7ZsJqzyLj8ckqPIv5FZ7+2TjiCUVR31ewZ7Ah2reiZ9WMubFXwAb
+    
+build_script:
+  - ps: .\build.ps1
+
+test: off
 
 branches:
   only:
     - master
-
-assembly_info:
-  patch: true
-  file: AssemblyInfo.*
-  assembly_version: "{version}"
-  assembly_file_version: "{version}"
-  assembly_informational_version: "{version}"
-
-configuration: Release
-
-before_build:
-  - nuget restore .\Cake.DoInDirectory\Cake.DoInDirectory.sln
-
-build:
-  project: .\Cake.DoInDirectory\Cake.DoInDirectory.sln
-
-after_test:
-  - ps: .\nuget\pack.ps1
-
-artifacts:
-  - path: Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.dll
-    name: Cake.DoInDirectory.dll
-  - path: Cake.DoInDirectory\bin\Release\Cake.DoInDirectory.XML
-    name: Cake.DoInDirectory.XML
-  - path: '**\Cake.DoInDirectory*.nupkg'
+    - /feature/.*/
