@@ -49,7 +49,7 @@ Task("Pack")
         Description  = "An extension to Cake Build. Changes the current directory.",
         ProjectUrl   = new Uri("https://github.com/pitermarx/Cake.DoInDirectory"),
         Tags         = new [] {"cake","io", "directory"},
-        IconUrl      = "https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png",
+        IconUrl      = new Uri("https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png"),
         Files        = new [] { 
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.dll", Target = "lib/net45" },
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.XML", Target = "lib/net45" },
