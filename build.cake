@@ -1,4 +1,4 @@
-#tool "nuget:?package=GitVersion.CommandLine&version=3.6.2"
+#tool "nuget:?package=GitVersion.CommandLine&version=3.6.5"
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
@@ -56,7 +56,7 @@ Task("Pack")
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.pdb", Target = "lib/net45" }
         },
         Dependencies = new [] {
-            new NuSpecDependency { Id = "Cake.Core", Version = "0.18.0" }
+            new NuSpecDependency { Id = "Cake.Core", Version = "0.22.0" }
         },
         BasePath        = "./",
         OutputDirectory = "./nuget"
