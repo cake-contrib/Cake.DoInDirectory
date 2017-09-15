@@ -3,7 +3,7 @@ environment:
     secure: 0z9yOFGpfQzF7ZsJqzyLj8ckqPIv5FZ7+2TjiCUVR31ewZ7Ah2reiZ9WMubFXwAb
     
 build_script:
-  - ps: .\build.ps1
+  - ps: .\build.ps1 -Verbosity Diagnostic
 
 test: off
 

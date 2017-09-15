@@ -251,5 +251,5 @@ paket-files/
 .idea/
 *.sln.iml
 
-tools/
-!tools/package.config
+tools/*
+!tools/packages.config
