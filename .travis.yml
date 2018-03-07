@@ -6,5 +6,4 @@ sudo: required
 dotnet: 2.0.0
 
 script:
-  - "cd ci-script"
   - "./build.sh -t Publish"
