@@ -43,11 +43,11 @@ Task("Pack")
 {
     var nuGetPackSettings   = new NuGetPackSettings 
     {
-        Id           = "Cake.DoInDirectory",
+        Id           = "santey.Cake.DoInDirectory",
         Version      = version.NuGetVersionV2,
-        Authors      = new[] {"pitermarx"},
+        Authors      = new[] {"pitermarx; Dmitriy Vereshchagin"},
         Description  = "An extension to Cake Build. Changes the current directory.",
-        ProjectUrl   = new Uri("https://github.com/pitermarx/Cake.DoInDirectory"),
+        ProjectUrl   = new Uri("https://github.com/santey/Cake.DoInDirectory"),
         Tags         = new [] {"cake","io", "directory"},
         IconUrl      = new Uri("https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png"),
         Files        = new [] { 
