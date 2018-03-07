@@ -45,7 +45,7 @@ Task("Pack")
     {
         Id           = "Cake.DoInDirectory",
         Version      = version.NuGetVersionV2,
-        Authors      = new[] {"pitermarx"},
+        Authors      = new[] {"pitermarx; Dmitriy Vereshchagin"},
         Description  = "An extension to Cake Build. Changes the current directory.",
         ProjectUrl   = new Uri("https://github.com/pitermarx/Cake.DoInDirectory"),
         Tags         = new [] {"cake","io", "directory"},
@@ -56,7 +56,7 @@ Task("Pack")
             new NuSpecContent { Source = "Cake.DoInDirectory/bin/Release/Cake.DoInDirectory.pdb", Target = "lib/net45" }
         },
         Dependencies = new [] {
-            new NuSpecDependency { Id = "Cake.Core", Version = "0.22.1" }
+            new NuSpecDependency { Id = "Cake.Core", Version = "0.26.0" }
         },
         BasePath        = "./",
         OutputDirectory = "./nuget"
