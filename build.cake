@@ -43,7 +43,7 @@ Task("Pack")
 {
     var nuGetPackSettings   = new NuGetPackSettings 
     {
-        Id           = "santey.Cake.DoInDirectory",
+        Id           = "Cake.DoInDirectory",
         Version      = version.NuGetVersionV2,
         Authors      = new[] {"pitermarx; Dmitriy Vereshchagin"},
         Description  = "An extension to Cake Build. Changes the current directory.",
