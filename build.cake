@@ -42,7 +42,7 @@ Task("Publish")
     .IsDependentOn("Test")
     .Does(() =>
 {
-    var file = GetFiles("bin/*.nupkg").First();
+    var file = GetFiles("./**/bin/Release/*.nupkg").First();
     AppVeyor.UploadArtifact(file);
 
     var tagged = AppVeyor.Environment.Repository.Tag.IsTag && 
