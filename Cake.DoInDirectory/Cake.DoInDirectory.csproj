@@ -14,7 +14,7 @@
     <Authors>pitermarx</Authors>
     <Owners>pitermarx</Owners>
     <PackageProjectUrl>https://github.com/pitermarx/Cake.DoInDirectory</PackageProjectUrl>
-    <PackageIconUrl>"https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png"</PackageIconUrl>
+    <PackageIconUrl>https://cdn.rawgit.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright © 2016</Copyright>
   </PropertyGroup>
