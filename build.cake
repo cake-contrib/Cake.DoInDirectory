@@ -1,4 +1,5 @@
-#tool "nuget:?package=GitVersion.CommandLine&version=3.6.5"
+#tool "nuget:?package=NuGet.CommandLine&version=5.8.1"
+#tool "nuget:?package=GitVersion.CommandLine&version=5.6.6"
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
@@ -25,7 +26,7 @@ Task("Build")
     MSBuild(solution, configurator =>
         configurator
             .WithProperty("PackageVersion", version.NuGetVersionV2)
-			.UseToolVersion(MSBuildToolVersion.VS2017)
+            .UseToolVersion(MSBuildToolVersion.VS2019)
             .SetConfiguration(configuration)
             .SetVerbosity(Verbosity.Minimal));
 });

@@ -251,5 +251,5 @@ paket-files/
 .idea/
 *.sln.iml
 
-tools/*
-!tools/packages.config
+#cake
+.cake/
