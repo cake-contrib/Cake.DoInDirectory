@@ -8,15 +8,15 @@
   <PropertyGroup>
     <PackageId>Cake.DoInDirectory</PackageId>
     <Title>Cake.DoInDirectory</Title>
-    <Summary>An extension to Cake Build. Changes the current directory.</Summary>
-    <Description>An extension to Cake Build. Changes the current directory.</Description>
-    <PackageTags>Cake Script Build</PackageTags>
-    <Authors>pitermarx</Authors>
-    <Owners>pitermarx</Owners>
-    <PackageProjectUrl>https://github.com/pitermarx/Cake.DoInDirectory</PackageProjectUrl>
+    <Summary>Cake addin for easily executing code in a different working directory..</Summary>
+    <Description>Cake addin for easily executing code in a different working directory..</Description>
+    <PackageTags>cake directory work-dir working-directory cwd cake-addin cake-build cake-contrib addin script build</PackageTags>
+    <Authors>pitermarx,augustoproiete</Authors>
+    <Owners>cake-contrib,pitermarx,augustoproiete</Owners>
+    <PackageProjectUrl>https://github.com/cake-contrib/Cake.DoInDirectory</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Copyright>Copyright © 2016</Copyright>
+    <Copyright>Copyright 2016-2021 Cake Contributions</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
