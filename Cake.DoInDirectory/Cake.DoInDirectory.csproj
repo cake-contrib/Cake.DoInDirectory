@@ -15,6 +15,8 @@
     <Owners>cake-contrib,pitermarx,augustoproiete</Owners>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.DoInDirectory</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/addin/cake-contrib-addin-medium.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/cake-contrib/Cake.DoInDirectory.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright 2016-2021 Cake Contributions</Copyright>
   </PropertyGroup>
