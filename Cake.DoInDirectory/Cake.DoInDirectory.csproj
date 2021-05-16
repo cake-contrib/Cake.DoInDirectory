@@ -13,6 +13,7 @@
     <PackageTags>cake directory work-dir working-directory cwd cake-addin cake-build cake-contrib addin script build</PackageTags>
     <Authors>pitermarx,augustoproiete</Authors>
     <Owners>cake-contrib,pitermarx,augustoproiete</Owners>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.DoInDirectory</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/addin/cake-contrib-addin-medium.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/cake-contrib/Cake.DoInDirectory.git</RepositoryUrl>
