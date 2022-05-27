@@ -26,7 +26,7 @@ Task("Build")
     MSBuild(solution, configurator =>
         configurator
             .WithProperty("PackageVersion", version.NuGetVersionV2)
-            .UseToolVersion(MSBuildToolVersion.VS2019)
+            .UseToolVersion(MSBuildToolVersion.VS2022)
             .SetConfiguration(configuration)
             .SetVerbosity(Verbosity.Minimal));
 });
