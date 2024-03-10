@@ -1,4 +1,4 @@
-#reference "Cake.DoInDirectory/bin/Release/net6.0/Cake.DoInDirectory.dll"
+#reference "Cake.DoInDirectory/bin/Release/net8.0/Cake.DoInDirectory.dll"
 
 Setup((ctx) => 
 {
