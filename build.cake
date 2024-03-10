@@ -1,5 +1,5 @@
-#tool "nuget:?package=NuGet.CommandLine&version=6.3.1"
-#tool "nuget:?package=GitVersion.CommandLine&version=5.11.1"
+#tool "nuget:?package=NuGet.CommandLine&version=6.9.1"
+#tool "nuget:?package=GitVersion.CommandLine&version=5.12.0"
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
