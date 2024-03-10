@@ -23,6 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="4.0.0" PrivateAssets="All" />
     <None Include="../cake-contrib-addin-medium.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
  
